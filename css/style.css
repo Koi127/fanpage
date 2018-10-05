@@ -6,6 +6,10 @@ body {
     height: 100%;
     
 }
+.header{
+    height: 50px;
+    text-align: center;
+}
 a {
     text-decoration: none;
 }
@@ -16,4 +20,43 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    background-color:black;
+    box-shadow: 1px 1px 20px 1px;
+    width:100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    position:absolute;
+    border-radius: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+#copyRight{
+    float: right;
+    color: white;
+    justify-content:flex-end;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    width:100%;
 }
