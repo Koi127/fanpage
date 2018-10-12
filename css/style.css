@@ -6,6 +6,9 @@ body {
     height: 100%;
     
 }
+container{
+    display: flex;
+}
 .header{
     height: 50px;
     text-align: center;
@@ -13,7 +16,17 @@ body {
 a {
     text-decoration: none;
 }
+.navbar{
+    width:100%;
+}
+.aboutMain{
+    padding-top: 100px;
+    width:100%;
 
+}
+.footer{
+    width:100%;
+}
 .main {
     height: 100%;
 }
