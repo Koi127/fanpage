@@ -6,29 +6,84 @@ body {
     height: 100%;
     
 }
+
 container{
     display: flex;
 }
+
 .header{
     height: 50px;
     text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 30px;
+    color: #FFD725;
+    font-weight: bold;
 }
+
 a {
     text-decoration: none;
 }
+
 .navbar{
     width:100%;
 }
+
 .aboutMain{
+    display: flex;
     padding-top: 100px;
     width:100%;
-
+    justify-content:space-around;
 }
+
 .footer{
     width:100%;
 }
+
+#intro{
+    font-family: 'Megrim', cursive;
+    padding-top: 100px;
+    font-size: 20px;
+    color:#FF9055;
+}
+
 .main {
     height: 100%;
+}
+
+#summary{
+    width:500px;
+    border:1px black solid;
+    padding:50px;
+    margin-top: 50px;
+    background-color: #6D6561;
+    color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: #C6C3C2 1px 1px 20px 1px;
+}
+
+#jige{
+    width:400px;
+    height:600px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.content{
+    margin-top:30px;
+    margin-left:5%;
+    display: flex;
+    flex-wrap:wrap;
+    background-color:#9A680F;
+    margin-right: 5%;
+    padding-left: 18%;
+
+}
+.characters{
+    width:30%;
+    height:55%;
+    margin: 50px;
+    border-radius:10px;
+    box-shadow: 1px 1px 20px 1px;
 }
 .social-image{
     width: 30px;
