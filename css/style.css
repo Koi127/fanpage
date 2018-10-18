@@ -62,6 +62,15 @@ a {
     box-shadow: #C6C3C2 1px 1px 20px 1px;
 }
 
+.thumbnail-image{
+    padding-left: 5px;
+    width:100%;
+}
+
+.gallery{
+    padding-top: 100px;
+}
+
 #jige{
     width:400px;
     height:600px;
